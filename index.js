@@ -36,12 +36,14 @@ function onChangeSignatory() {
       );
       setAttrValue("SignatoryPosition", data.positionName || "");
       setAttrValue("SignatoryEmail", data.email || "");
+      setAttrValue("CommissionMember3", "1");
     }
   } else {
     setAttrValue("SignatoryNameI", "");
     setAttrValue("SignatoryNameF", "");
     setAttrValue("SignatoryPosition", "");
     setAttrValue("SignatoryEmail", "");
+    setAttrValue("CommissionMember3", "");
   }
 }
 
